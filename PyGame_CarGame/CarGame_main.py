@@ -1,11 +1,9 @@
 import math
-from turtledemo.penrose import start
-
-import pygame
 import sys, os
-from pygame.math import Vector2
 import time
 
+import pygame
+from pygame.math import Vector2
 
 # загрузка изображений
 def load_image(name, colorkey=None):
